@@ -67,15 +67,13 @@
 				<artifactId>qmetry-test-management-maven-plugin</artifactId>
 				<configuration>
 					<url>https://testmanagement.qmetry.com/</url>
-					<apikey>cwmtMmB6YXo7Sj0YEchpJYiZgt3nd8TZCmtsDwD</apikey>
+					<apikey>NjiYIapk1Maa8ivy0bqkfqHfSj7YegJk0fPffZXS</apikey>
 					<filepath>/test-results\</filepath>
 					<format>qas/json</format>
-					<project>Demo Project</project>
-					<testsuite>GPT-TS-26</testsuite>
-					<release>Demo Release</release>
-					<cycle>Demo Cycle</cycle>
-					<build>Demo Build</build>
-					<platform>Chrome</platform>
+					<project>CodeSnippets</project>
+					<release>Default Release</release>
+					<cycle>Default Cycle</cycle>
+					<platform>No Platform</platform>
 				</configuration>
 			</plugin>
 			<plugin>

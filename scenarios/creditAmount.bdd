@@ -1,0 +1,9 @@
+
+
+SCENARIO: Banking Transaction - Credit Amount
+META-DATA: {"description":"Credit Amount","groups":["SMOKE"]}
+	
+	Given Current balance '3500'
+	When Credit amount '500'
+	Then Verify balance is '4000'
+END
