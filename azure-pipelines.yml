@@ -20,6 +20,3 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: 'package'
-- script: 
-    mvn clean test
-    mvn qtm:uploadresults
