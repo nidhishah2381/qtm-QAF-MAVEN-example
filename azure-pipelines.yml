@@ -19,4 +19,5 @@ steps:
     jdkArchitectureOption: 'x64'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    goals: 'clean qtm:uploadresults'
+    goals:  
+      'clean test qtm:uploadresults'
