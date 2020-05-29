@@ -74,6 +74,7 @@
 					<release>Default Release</release>
 					<cycle>Default Cycle</cycle>
 					<platform>No Platform</platform>
+					<testsuiteName>Azure DevOps - QTM Integration</testsuiteName>
 				</configuration>
 			</plugin>
 			<plugin>
