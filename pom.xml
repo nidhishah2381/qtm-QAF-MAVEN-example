@@ -67,10 +67,10 @@
 				<artifactId>qmetry-test-management-maven-plugin</artifactId>
 				<configuration>
 					<url>https://testmanagement.qmetry.com/</url>
-					<apikey>NjiYIapk1Maa8ivy0bqkfqHfSj7YegJk0fPffZXS</apikey>
+					<apikey>pVu0qutrkICbl3jI7RLTplyrcLWv0G7sL8A40Od2</apikey>
 					<filepath>/test-results\</filepath>
 					<format>qas/json</format>
-					<project>CodeSnippets</project>
+					<project>Integration Demo</project>
 					<release>Default Release</release>
 					<cycle>Default Cycle</cycle>
 					<platform>No Platform</platform>
